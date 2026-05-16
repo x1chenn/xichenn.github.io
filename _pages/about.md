@@ -41,17 +41,26 @@ Earlier work spans time-series learning, generative modeling, and computer visio
 ## Selected Research Projects
 
 **Point Tracking for Bronchoscopy via Adjacent-Frame Correlation** &nbsp; <span style="color: var(--global-text-color-light)">· Feb 2026 – Present</span>
+
 _ARCADE Lab, Johns Hopkins University — with Dr. Lalithkumar Seenivasan_
-Adapting an AllTracker-style point tracker to bronchoscopy, where textureless airway walls and strong illumination changes and specular reflections break long-range query-anchored matching. I introduce an **adjacent-frame correlation** module that estimates frame-to-frame optical flow and chains it for robust trajectory tracking under low-texture, low-contrast conditions, and pair it with a **knowledge-distillation** scheme (Transformer teacher → lightweight CNN student with D2-Net-style features) targeting real-time deployment at **< 30 ms latency**.
+
+1.Adapting an AllTracker-style point tracker to bronchoscopy, where textureless airway walls and strong illumination changes and specular reflections break long-range query-anchored matching. 
+
+2.Introduce an **adjacent-frame correlation** module that estimates frame-to-frame optical flow and chains it for robust trajectory tracking under low-texture, low-contrast conditions, and pair it with a **knowledge-distillation** scheme (Transformer teacher → lightweight CNN student with D2-Net-style features) targeting real-time deployment at **< 30 ms latency**.
 <span style="color: var(--global-text-color-light)">_Manuscript in preparation._</span>
 
 **Adversarial Finetuning of Generative World Models for Distributionally Robust Offline RL** &nbsp; <span style="color: var(--global-text-color-light)">· Apr 2026 – Present</span>
+
 _Johns Hopkins University — with Prof. Laixi Shi, Prof. Jianyi Yang, and Jiaqi Wen_
-A robust offline RL framework combining **flow-matching trajectory generation** with **distributionally robust optimization (DRO)**. The generative module synthesizes _H_-step future trajectories, enabling target-Q estimation beyond one-step Bellman backups and emphasizing long-horizon returns; a DRO objective identifies worst-case trajectory distributions within an uncertainty set, yielding strong empirical robustness under dynamics-shift settings versus standard offline RL baselines.
+
+1.A robust offline RL framework combining **flow-matching trajectory generation** with **distributionally robust optimization (DRO)**. The generative module synthesizes _H_-step future trajectories, enabling target-Q estimation beyond one-step Bellman backups and emphasizing long-horizon returns.
+2.A DRO objective identifies worst-case trajectory distributions within an uncertainty set, yielding strong empirical robustness under dynamics-shift settings versus standard offline RL baselines.
 <span style="color: var(--global-text-color-light)">_Manuscript in preparation._</span>
 
 **Backdoor Attacks on Multivariate Time-Series Forecasting** &nbsp; <span style="color: var(--global-text-color-light)">· Dec 2024 – May 2025</span>
+
 _Undergraduate thesis, DBIS Lab, Nankai University — with Dr. Xiangrui Cai_
+
 A backdoor-attack framework for multivariate time-series forecasting under realistic missing-value scenarios: invisible triggers are injected at missing-value positions and an imputation strategy based on critical time-step analysis restores data integrity while preserving trigger stealthiness, reducing attack MAE by **43%** versus baselines.
 
 <span style="color: var(--global-text-color-light)">A fuller list of projects, including computer-vision and systems work, is on the [projects](/projects/) page.</span>
