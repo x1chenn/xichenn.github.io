@@ -27,11 +27,11 @@ latest_posts:
   limit: 3
 ---
 
-Hi! 👋 I'm **Xi Chen (陈曦)**, a first-year **M.S.E. student in Computer Science** at **🏫 Johns Hopkins University**, where I work in the [ARCADE Lab](https://arcade.cs.jhu.edu/) with Dr. Lalithkumar Seenivasan and collaborate with Prof. Laixi Shi and Prof. Jianyi Yang on robust reinforcement learning. Before JHU, I received my B.Eng. in Computer Science from **Nankai University**.
+Hi! 👋 I'm **Xi Chen (陈希)**, a first-year **M.S.E. student in Computer Science** at **🏫 Johns Hopkins University**, where I work in the [ARCADE Lab](https://arcade.cs.jhu.edu/) with Dr. Lalithkumar Seenivasan and collaborate with Prof. Laixi Shi and Prof. Jianyi Yang on robust reinforcement learning. Before JHU, I received my B.Eng. in Computer Science from **Nankai University**.
 
 I am broadly interested in **decision-making and perception for embodied agents**, and I am **applying for a Ph.D.** to pursue this direction. My current research focuses on:
 
-- **World Models for Reinforcement Learning** — generative / flow-matching trajectory models, long-horizon value estimation, and distributionally robust offline RL under dynamics shift.
+- **World Models for Reinforcement Learning** — generative trajectory models, long-horizon value estimation, and distributionally robust offline RL under dynamics shift.
 - **Vision-Language-Action (VLA) & Visual Foundation Models** — low-latency point-tracking and representation models that can serve as perception backbones for embodied and surgical agents.
 
 Earlier work spans time-series learning, generative modeling, and computer vision. I enjoy problems where robust decision-making meets real deployment constraints.
