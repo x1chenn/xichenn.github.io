@@ -31,8 +31,8 @@ Hi! I'm **Xi Chen (陈希)**, a first-year **M.S.E. student in Computer Science*
 
 I am broadly interested in **decision-making and perception for embodied agents**, and I am **applying for a Ph.D.** to pursue this direction. My current research focuses on:
 
-- **World Models for Reinforcement Learning** — generative trajectory models, long-horizon value estimation, and distributionally robust offline RL under dynamics shift.
-- **Vision-Language-Action (VLA) & Visual Foundation Models** — low-latency point-tracking and representation models that can serve as perception backbones for embodied and surgical agents.
+- 🌍 **Generative World Models for Robust RL** — Investigating how diffusion models and flow matching can serve as trajectory-level world models for offline reinforcement learning, enabling multi-step value expansion without compounding prediction error. I am particularly interested in grounding these models in distributionally robust optimization (DRO) to handle dynamics shift at deployment, with extensions toward multi-agent robust planning via RTG-conditioned joint trajectory generation.
+- 👁️ **Visual Foundation Models for Embodied & Surgical Agents** — Developing point tracking and spatiotemporal correspondence models that remain reliable under challenging endoscopic conditions (specular highlights, low-texture tissue, rapid motion). I am interested in how robust perception backbones can be composed with world models and action policies to support long-horizon planning in surgical robotics and embodied AI.
 
 Earlier work spans time-series learning, generative modeling, and computer vision. I enjoy problems where robust decision-making meets real deployment constraints.
 
