@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "post-a-post-with-plotly-js",
+  },{id: "nav-projects",
+          title: "projects",
+          description: "Selected research and coursework projects.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/projects/";
+          },
+        },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
@@ -386,51 +393,46 @@ ninja.data = [{
           section: "News",},{id: "news-started-a-new-project-on-adversarial-finetuning-of-generative-world-models-for-distributionally-robust-offline-rl-with-prof-laixi-shi-and-prof-jianyi-yang",
           title: 'Started a new project on adversarial finetuning of generative world models for distributionally...',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-point-tracking-for-bronchoscopy",
+          title: 'Point Tracking for Bronchoscopy',
+          description: "Adjacent-frame correlation for robust point tracking in low-texture, high-glare airway video.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+              window.location.href = "/projects/1_bronchoscopy_tracking/";
+            },},{id: "projects-generative-world-models-for-robust-offline-rl",
+          title: 'Generative World Models for Robust Offline RL',
+          description: "Flow-matching trajectory generation with distributionally robust optimization under dynamics shift.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+              window.location.href = "/projects/2_robust_offline_rl/";
+            },},{id: "projects-backdoor-attacks-on-time-series-forecasting",
+          title: 'Backdoor Attacks on Time-Series Forecasting',
+          description: "Stealthy backdoor attacks on multivariate forecasting under realistic missing-value scenarios.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+              window.location.href = "/projects/3_ts_backdoor/";
+            },},{id: "projects-transformer-video-sign-language-recognition",
+          title: 'Transformer Video Sign-Language Recognition',
+          description: "Transformer-based continuous sign-language recognition and translation from video streams.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
-            },},{id: "projects-project-5",
-          title: 'project 5',
-          description: "a project with a background image",
+              window.location.href = "/projects/4_sign_language/";
+            },},{id: "projects-hybrid-defect-detection-for-ceramic-tiles",
+          title: 'Hybrid Defect Detection for Ceramic Tiles',
+          description: "Tiny-defect detection on ultra-high-resolution industrial images with an improved YOLOv8.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/5_project/";
-            },},{id: "projects-project-6",
-          title: 'project 6',
-          description: "a project with no image",
+              window.location.href = "/projects/5_ceramic_defect/";
+            },},{id: "projects-intelligent-it-operations-system",
+          title: 'Intelligent IT Operations System',
+          description: "Microservices monitoring platform with ML-based fault detection for e-commerce.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/6_project/";
-            },},{id: "projects-project-7",
-          title: 'project 7',
-          description: "with background image",
+              window.location.href = "/projects/6_it_ops/";
+            },},{id: "projects-full-compiler-design",
+          title: 'Full Compiler Design',
+          description: "A complete compiler pipeline from lexing to target code generation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/7_project/";
-            },},{id: "projects-project-8",
-          title: 'project 8',
-          description: "an other project with a background image and giscus comments",
+              window.location.href = "/projects/7_compiler/";
+            },},{id: "projects-machine-learning-for-bioinformatics",
+          title: 'Machine Learning for Bioinformatics',
+          description: "LSTM-based cell-type classification with dimensionality-reduction pipelines.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_project/";
-            },},{id: "projects-project-9",
-          title: 'project 9',
-          description: "another project with an image 🎉",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_project/";
+              window.location.href = "/projects/8_ml_bioinformatics/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
