@@ -44,7 +44,7 @@ Earlier work spans time-series learning, generative modeling, and computer visio
 
 _ARCADE Lab, Johns Hopkins University — with Dr. Lalithkumar Seenivasan_
 
-1.Adapting an AllTracker-style point tracker to bronchoscopy, where textureless airway walls and strong illumination changes and specular reflections break long-range query-anchored matching. 
+1.Adapting an AllTracker-style point tracker to bronchoscopy, where textureless airway walls and strong illumination changes and specular reflections break long-range query-anchored matching.
 
 2.Introduce an **adjacent-frame correlation** module that estimates frame-to-frame optical flow and chains it for robust trajectory tracking under low-texture, low-contrast conditions, and pair it with a **knowledge-distillation** scheme (Transformer teacher → lightweight CNN student with D2-Net-style features) targeting real-time deployment at **< 30 ms latency**.
 <span style="color: var(--global-text-color-light)">_Manuscript in preparation._</span>
